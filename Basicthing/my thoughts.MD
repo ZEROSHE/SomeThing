@@ -32,3 +32,36 @@ Sorry ,I dont know,我从来不认为自己的技术可以称为一个hacker，�
 主要参考 fireeye-M-Trends 2019
 ## APT37
 别名: ScarCruft\Reaper\Group 123
+怀疑归属: 朝鲜
+目标: 主要为韩国（2017年扩展到日本、越南、中东等国家）
+
+2016-2018关键字: 
+Operation Daybreak, Operation Erebus, Golden Time, Evil New Year, Are you Happy?, FreeMilk, Northern Korean Human Rights, and Evil New Year 2018.
+
+
+TTPS攻击周期:
+
+Initial Compromise（妥协方式）:
+钓鱼(之后所听说的妥协参数就是攻陷过程中利用的IP)
+Establish Foothold（下载，驻留）
+
+Escalate Privilege （特权提升）
+Maintain Presence（自启）
+Move Laterally（横向移动）
+Internal Reconnaissance（内部检测）
+
+
+Complete Mission（完成任务）
+
+在这个过程中存在各种不同的工具使用:
+
+拥有了各种各样的间谍工具。它安装了FireEye称之为DogCall，ShutterSpeed和PoorAim的恶意软件，所有这些都能够窃取受害者计算机的屏幕截图，记录击键或挖掘文件。另一个恶意软件样本ZumKong旨在从浏览器内存中窃取凭据。一个名为CoralDeck的工具压缩文件并将其提取到攻击者的远程服务器。而一个间谍软件FireEye呼叫SoundWave接管受害者的PC麦克风，以静默记录和存储窃听的音频日志。
+RUHappy的工具，该工具有可能破坏系统（猜测）
+
+
+
+
+
+Interesting Links:
+https://www.wired.com/story/north-korean-hacker-group-apt37/
+https://github.com/MISP/misp-galaxy
