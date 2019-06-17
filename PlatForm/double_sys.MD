@@ -58,3 +58,8 @@ source.list权限
 644
 
 777
+
+出现tcpdump问题，如果官方文档中的方法没有解决
+可以用
+sudo setcap cap_net_raw,cap_net_admin=eip /usr/sbin/tcpdump
+然后重启试试
